@@ -1,0 +1,30 @@
+{
+  "name": "Copy story",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.4",
+  "description": "get story https://*/*",
+  "host_permissions": ["https://*/*"],
+  "permissions": ["activeTab", "tabs", "scripting", "clipboardWrite", "notifications", "storage"],
+   "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "icons": {
+    "16": "cake_16x16.png",
+    "32": "cake_32x32.png",
+    "48": "cake_48x48.png",
+    "128": "cake_128x128.png"
+  },
+  "commands": {
+    "copy-story": {
+      "suggested_key": {
+        "default": "Shift+Alt+C"
+      },
+      "description": "Copy story"
+    }
+  }  
+}
