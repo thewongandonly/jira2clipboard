@@ -11,9 +11,9 @@ PS: tab must have focus
 
 ## Running this extension
 
-1. Clone this repository.
+1. Clone this repository. Edit .manifest to include your own url in host_permissions
 2. Load this directory in Chrome as an [unpacked extension](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked).
-3. Navigate to (https://jira.vijzelmolen.nl/) page and click on either a board or story detail.
+3. Navigate to your jira page and click on either a board or story detail.
 4. Click the extension icon.
 
 ## Firefox
