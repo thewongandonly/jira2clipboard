@@ -51,7 +51,7 @@ function collectStory() {
 
   let tegel = document.body.querySelector("div.ghx-selected");
   if (!!tegel) {
-    //hoofdstorytegel:
+    //main tile:
     resolvedVal = !!resolvedVal ? resolvedVal + "\r\n- " : "";
     resolvedVal = resolvedVal + tegel.getAttribute("aria-label");
 
